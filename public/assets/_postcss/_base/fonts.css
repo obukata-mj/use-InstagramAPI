@@ -1,0 +1,13 @@
+@layer base {
+  /*
+  @font-face {
+    font-family: 'fontname';
+    font-style: normal;
+    src: url(/assets/fonts/fontname.woff2) format('woff2'),
+      url(/assets/fonts/fontname.woff) format('woff'),
+      url(/assets/fonts/fontname.eot) format('eot'),
+      url(/assets/fonts/fontname.ttf) format('truetype');
+    font-display: swap;
+  }
+  */
+}

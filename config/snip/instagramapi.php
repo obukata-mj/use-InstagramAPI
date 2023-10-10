@@ -1,0 +1,4 @@
+<?php
+	$access_token = 'EAAEuN73PivcBO4bFHvcU9qpMDASyWZBEXF7XmchNLedaOk5Y0ABAdzhb1AvLfx1r3YOAT7Sb8uFls5CiBhMUbtAKxcWpyM93LZAQWJdRMMupXolcZAZAlfFVuPzWAWlVLG9Xuxomn9rj5ntLCDau6mIlXKMcQyLyY4rkfJmB6Nk2SrZCFkTAADmIoAUzoxSXc';
+	$instagram_business_account_id = '17841462430190554';
+?>

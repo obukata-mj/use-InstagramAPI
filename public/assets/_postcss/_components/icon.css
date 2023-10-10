@@ -1,0 +1,6 @@
+.icon {
+  @apply h-[1em] w-[1em];
+  &__document-text {
+    @add-mixin document-text black;
+  }
+}

@@ -1,0 +1,3505 @@
+@define-mixin academic-cap $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/academic-cap.svg',
+    stroke=$color
+  );
+}
+@define-mixin adjustments-horizontal $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/adjustments-horizontal.svg',
+    stroke=$color
+  );
+}
+@define-mixin adjustments-vertical $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/adjustments-vertical.svg',
+    stroke=$color
+  );
+}
+@define-mixin archive-box-arrow-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/archive-box-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin archive-box-x-mark $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/archive-box-x-mark.svg',
+    stroke=$color
+  );
+}
+@define-mixin archive-box $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/archive-box.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-down-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-down-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-on-square-stack $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-down-on-square-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-on-square $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-down-on-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-right $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-down-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-tray $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-down-tray.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-left-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-left-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-left-on-rectangle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-left-on-rectangle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-long-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-long-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-long-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-long-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-long-right $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-long-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-long-up $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-long-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-path-rounded-square $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-path-rounded-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-path $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-path.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-right-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-right-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-right-on-rectangle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-right-on-rectangle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-right $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-small-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-small-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-small-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-small-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-small-right $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-small-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-small-up $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-small-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-top-right-on-square $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-top-right-on-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-trending-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-trending-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-trending-up $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-trending-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-up-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-up-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-on-square-stack $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-up-on-square-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-on-square $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-up-on-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-right $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-up-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-tray $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-up-tray.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-uturn-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-uturn-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-uturn-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-uturn-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-uturn-right $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-uturn-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-uturn-up $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrow-uturn-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrows-pointing-in $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrows-pointing-in.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrows-pointing-out $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrows-pointing-out.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrows-right-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrows-right-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrows-up-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/arrows-up-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin at-symbol $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/at-symbol.svg',
+    stroke=$color
+  );
+}
+@define-mixin backspace $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/backspace.svg',
+    stroke=$color
+  );
+}
+@define-mixin backward $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/backward.svg',
+    stroke=$color
+  );
+}
+@define-mixin banknotes $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/banknotes.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-2 $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bars-2.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-3-bottom-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bars-3-bottom-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-3-bottom-right $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bars-3-bottom-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-3-center-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bars-3-center-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-3 $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bars-3.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-4 $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bars-4.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-arrow-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bars-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-arrow-up $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bars-arrow-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin battery-0 $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/battery-0.svg',
+    stroke=$color
+  );
+}
+@define-mixin battery-50 $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/battery-50.svg',
+    stroke=$color
+  );
+}
+@define-mixin battery-100 $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/battery-100.svg',
+    stroke=$color
+  );
+}
+@define-mixin beaker $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/beaker.svg',
+    stroke=$color
+  );
+}
+@define-mixin bell-alert $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bell-alert.svg',
+    stroke=$color
+  );
+}
+@define-mixin bell-slash $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bell-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin bell-snooze $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bell-snooze.svg',
+    stroke=$color
+  );
+}
+@define-mixin bell $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bell.svg',
+    stroke=$color
+  );
+}
+@define-mixin bolt-slash $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bolt-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin bolt $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bolt.svg',
+    stroke=$color
+  );
+}
+@define-mixin book-open $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/book-open.svg',
+    stroke=$color
+  );
+}
+@define-mixin bookmark-slash $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bookmark-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin bookmark-square $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bookmark-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin bookmark $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bookmark.svg',
+    stroke=$color
+  );
+}
+@define-mixin briefcase $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/briefcase.svg',
+    stroke=$color
+  );
+}
+@define-mixin bug-ant $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/bug-ant.svg',
+    stroke=$color
+  );
+}
+@define-mixin building-library $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/building-library.svg',
+    stroke=$color
+  );
+}
+@define-mixin building-office-2 $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/building-office-2.svg',
+    stroke=$color
+  );
+}
+@define-mixin building-office $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/building-office.svg',
+    stroke=$color
+  );
+}
+@define-mixin building-storefront $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/building-storefront.svg',
+    stroke=$color
+  );
+}
+@define-mixin cake $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cake.svg',
+    stroke=$color
+  );
+}
+@define-mixin calculator $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/calculator.svg',
+    stroke=$color
+  );
+}
+@define-mixin calendar-days $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/calendar-days.svg',
+    stroke=$color
+  );
+}
+@define-mixin calendar $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/calendar.svg',
+    stroke=$color
+  );
+}
+@define-mixin camera $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/camera.svg',
+    stroke=$color
+  );
+}
+@define-mixin chart-bar-square $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chart-bar-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin chart-bar $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chart-bar.svg',
+    stroke=$color
+  );
+}
+@define-mixin chart-pie $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chart-pie.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-bottom-center-text $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chat-bubble-bottom-center-text.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-bottom-center $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chat-bubble-bottom-center.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-left-ellipsis $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chat-bubble-left-ellipsis.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-left-right $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chat-bubble-left-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chat-bubble-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-oval-left-ellipsis $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chat-bubble-oval-left-ellipsis.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-oval-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chat-bubble-oval-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin check-badge $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/check-badge.svg',
+    stroke=$color
+  );
+}
+@define-mixin check-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/check-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin check $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/check.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-double-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chevron-double-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-double-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chevron-double-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-double-right $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chevron-double-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-double-up $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chevron-double-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chevron-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chevron-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-right $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chevron-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-up-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chevron-up-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-up $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/chevron-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin circle-stack $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/circle-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin clipboard-document-check $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/clipboard-document-check.svg',
+    stroke=$color
+  );
+}
+@define-mixin clipboard-document-list $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/clipboard-document-list.svg',
+    stroke=$color
+  );
+}
+@define-mixin clipboard-document $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/clipboard-document.svg',
+    stroke=$color
+  );
+}
+@define-mixin clipboard $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/clipboard.svg',
+    stroke=$color
+  );
+}
+@define-mixin clock $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/clock.svg',
+    stroke=$color
+  );
+}
+@define-mixin cloud-arrow-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cloud-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin cloud-arrow-up $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cloud-arrow-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin cloud $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cloud.svg',
+    stroke=$color
+  );
+}
+@define-mixin code-bracket-square $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/code-bracket-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin code-bracket $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/code-bracket.svg',
+    stroke=$color
+  );
+}
+@define-mixin cog-6-tooth $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cog-6-tooth.svg',
+    stroke=$color
+  );
+}
+@define-mixin cog-8-tooth $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cog-8-tooth.svg',
+    stroke=$color
+  );
+}
+@define-mixin cog $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cog.svg',
+    stroke=$color
+  );
+}
+@define-mixin command-line $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/command-line.svg',
+    stroke=$color
+  );
+}
+@define-mixin computer-desktop $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/computer-desktop.svg',
+    stroke=$color
+  );
+}
+@define-mixin cpu-chip $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cpu-chip.svg',
+    stroke=$color
+  );
+}
+@define-mixin credit-card $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/credit-card.svg',
+    stroke=$color
+  );
+}
+@define-mixin cube-transparent $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cube-transparent.svg',
+    stroke=$color
+  );
+}
+@define-mixin cube $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cube.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-bangladeshi $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/currency-bangladeshi.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-dollar $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/currency-dollar.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-euro $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/currency-euro.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-pound $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/currency-pound.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-rupee $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/currency-rupee.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-yen $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/currency-yen.svg',
+    stroke=$color
+  );
+}
+@define-mixin cursor-arrow-rays $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cursor-arrow-rays.svg',
+    stroke=$color
+  );
+}
+@define-mixin cursor-arrow-ripple $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/cursor-arrow-ripple.svg',
+    stroke=$color
+  );
+}
+@define-mixin device-phone-mobile $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/device-phone-mobile.svg',
+    stroke=$color
+  );
+}
+@define-mixin device-tablet $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/device-tablet.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-arrow-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/document-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-arrow-up $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/document-arrow-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-chart-bar $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/document-chart-bar.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-check $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/document-check.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-duplicate $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/document-duplicate.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-magnifying-glass $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/document-magnifying-glass.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-minus $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/document-minus.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-plus $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/document-plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-text $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/document-text.svg',
+    stroke=$color
+  );
+}
+@define-mixin document $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/document.svg',
+    stroke=$color
+  );
+}
+@define-mixin ellipsis-horizontal-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/ellipsis-horizontal-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin ellipsis-horizontal $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/ellipsis-horizontal.svg',
+    stroke=$color
+  );
+}
+@define-mixin ellipsis-vertical $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/ellipsis-vertical.svg',
+    stroke=$color
+  );
+}
+@define-mixin envelope-open $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/envelope-open.svg',
+    stroke=$color
+  );
+}
+@define-mixin envelope $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/envelope.svg',
+    stroke=$color
+  );
+}
+@define-mixin exclamation-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/exclamation-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin exclamation-triangle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/exclamation-triangle.svg',
+    stroke=$color
+  );
+}
+@define-mixin eye-dropper $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/eye-dropper.svg',
+    stroke=$color
+  );
+}
+@define-mixin eye-slash $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/eye-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin eye $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/eye.svg',
+    stroke=$color
+  );
+}
+@define-mixin face-frown $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/face-frown.svg',
+    stroke=$color
+  );
+}
+@define-mixin face-smile $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/face-smile.svg',
+    stroke=$color
+  );
+}
+@define-mixin film $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/film.svg',
+    stroke=$color
+  );
+}
+@define-mixin finger-print $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/finger-print.svg',
+    stroke=$color
+  );
+}
+@define-mixin fire $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/fire.svg',
+    stroke=$color
+  );
+}
+@define-mixin flag $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/flag.svg',
+    stroke=$color
+  );
+}
+@define-mixin folder-arrow-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/folder-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin folder-minus $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/folder-minus.svg',
+    stroke=$color
+  );
+}
+@define-mixin folder-open $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/folder-open.svg',
+    stroke=$color
+  );
+}
+@define-mixin folder-plus $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/folder-plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin folder $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/folder.svg',
+    stroke=$color
+  );
+}
+@define-mixin forward $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/forward.svg',
+    stroke=$color
+  );
+}
+@define-mixin funnel $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/funnel.svg',
+    stroke=$color
+  );
+}
+@define-mixin gif $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/gif.svg',
+    stroke=$color
+  );
+}
+@define-mixin gift-top $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/gift-top.svg',
+    stroke=$color
+  );
+}
+@define-mixin gift $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/gift.svg',
+    stroke=$color
+  );
+}
+@define-mixin globe-alt $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/globe-alt.svg',
+    stroke=$color
+  );
+}
+@define-mixin globe-americas $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/globe-americas.svg',
+    stroke=$color
+  );
+}
+@define-mixin globe-asia-australia $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/globe-asia-australia.svg',
+    stroke=$color
+  );
+}
+@define-mixin globe-europe-africa $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/globe-europe-africa.svg',
+    stroke=$color
+  );
+}
+@define-mixin hand-raised $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/hand-raised.svg',
+    stroke=$color
+  );
+}
+@define-mixin hand-thumb-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/hand-thumb-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin hand-thumb-up $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/hand-thumb-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin hashtag $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/hashtag.svg',
+    stroke=$color
+  );
+}
+@define-mixin heart $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/heart.svg',
+    stroke=$color
+  );
+}
+@define-mixin home-modern $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/home-modern.svg',
+    stroke=$color
+  );
+}
+@define-mixin home $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/home.svg',
+    stroke=$color
+  );
+}
+@define-mixin identification $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/identification.svg',
+    stroke=$color
+  );
+}
+@define-mixin inbox-arrow-down $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/inbox-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin inbox-stack $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/inbox-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin inbox $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/inbox.svg',
+    stroke=$color
+  );
+}
+@define-mixin information-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/information-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin key $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/key.svg',
+    stroke=$color
+  );
+}
+@define-mixin language $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/language.svg',
+    stroke=$color
+  );
+}
+@define-mixin lifebuoy $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/lifebuoy.svg',
+    stroke=$color
+  );
+}
+@define-mixin light-bulb $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/light-bulb.svg',
+    stroke=$color
+  );
+}
+@define-mixin link $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/link.svg',
+    stroke=$color
+  );
+}
+@define-mixin list-bullet $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/list-bullet.svg',
+    stroke=$color
+  );
+}
+@define-mixin lock-closed $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/lock-closed.svg',
+    stroke=$color
+  );
+}
+@define-mixin lock-open $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/lock-open.svg',
+    stroke=$color
+  );
+}
+@define-mixin magnifying-glass-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/magnifying-glass-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin magnifying-glass-minus $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/magnifying-glass-minus.svg',
+    stroke=$color
+  );
+}
+@define-mixin magnifying-glass-plus $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/magnifying-glass-plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin magnifying-glass $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/magnifying-glass.svg',
+    stroke=$color
+  );
+}
+@define-mixin map-pin $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/map-pin.svg',
+    stroke=$color
+  );
+}
+@define-mixin map $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/map.svg',
+    stroke=$color
+  );
+}
+@define-mixin megaphone $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/megaphone.svg',
+    stroke=$color
+  );
+}
+@define-mixin microphone $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/microphone.svg',
+    stroke=$color
+  );
+}
+@define-mixin minus-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/minus-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin minus-small $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/minus-small.svg',
+    stroke=$color
+  );
+}
+@define-mixin minus $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/minus.svg',
+    stroke=$color
+  );
+}
+@define-mixin moon $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/moon.svg',
+    stroke=$color
+  );
+}
+@define-mixin musical-note $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/musical-note.svg',
+    stroke=$color
+  );
+}
+@define-mixin newspaper $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/newspaper.svg',
+    stroke=$color
+  );
+}
+@define-mixin no-symbol $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/no-symbol.svg',
+    stroke=$color
+  );
+}
+@define-mixin paint-brush $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/paint-brush.svg',
+    stroke=$color
+  );
+}
+@define-mixin paper-airplane $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/paper-airplane.svg',
+    stroke=$color
+  );
+}
+@define-mixin paper-clip $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/paper-clip.svg',
+    stroke=$color
+  );
+}
+@define-mixin pause-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/pause-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin pause $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/pause.svg',
+    stroke=$color
+  );
+}
+@define-mixin pencil-square $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/pencil-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin pencil $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/pencil.svg',
+    stroke=$color
+  );
+}
+@define-mixin phone-arrow-down-left $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/phone-arrow-down-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin phone-arrow-up-right $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/phone-arrow-up-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin phone-x-mark $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/phone-x-mark.svg',
+    stroke=$color
+  );
+}
+@define-mixin phone $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/phone.svg',
+    stroke=$color
+  );
+}
+@define-mixin photo $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/photo.svg',
+    stroke=$color
+  );
+}
+@define-mixin play-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/play-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin play-pause $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/play-pause.svg',
+    stroke=$color
+  );
+}
+@define-mixin play $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/play.svg',
+    stroke=$color
+  );
+}
+@define-mixin plus-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/plus-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin plus-small $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/plus-small.svg',
+    stroke=$color
+  );
+}
+@define-mixin plus $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin power $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/power.svg',
+    stroke=$color
+  );
+}
+@define-mixin presentation-chart-bar $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/presentation-chart-bar.svg',
+    stroke=$color
+  );
+}
+@define-mixin presentation-chart-line $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/presentation-chart-line.svg',
+    stroke=$color
+  );
+}
+@define-mixin printer $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/printer.svg',
+    stroke=$color
+  );
+}
+@define-mixin puzzle-piece $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/puzzle-piece.svg',
+    stroke=$color
+  );
+}
+@define-mixin qr-code $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/qr-code.svg',
+    stroke=$color
+  );
+}
+@define-mixin question-mark-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/question-mark-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin queue-list $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/queue-list.svg',
+    stroke=$color
+  );
+}
+@define-mixin radio $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/radio.svg',
+    stroke=$color
+  );
+}
+@define-mixin receipt-percent $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/receipt-percent.svg',
+    stroke=$color
+  );
+}
+@define-mixin receipt-refund $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/receipt-refund.svg',
+    stroke=$color
+  );
+}
+@define-mixin rectangle-group $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/rectangle-group.svg',
+    stroke=$color
+  );
+}
+@define-mixin rectangle-stack $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/rectangle-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin rocket-launch $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/rocket-launch.svg',
+    stroke=$color
+  );
+}
+@define-mixin rss $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/rss.svg',
+    stroke=$color
+  );
+}
+@define-mixin scale $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/scale.svg',
+    stroke=$color
+  );
+}
+@define-mixin scissors $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/scissors.svg',
+    stroke=$color
+  );
+}
+@define-mixin server-stack $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/server-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin server $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/server.svg',
+    stroke=$color
+  );
+}
+@define-mixin share $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/share.svg',
+    stroke=$color
+  );
+}
+@define-mixin shield-check $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/shield-check.svg',
+    stroke=$color
+  );
+}
+@define-mixin shield-exclamation $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/shield-exclamation.svg',
+    stroke=$color
+  );
+}
+@define-mixin shopping-bag $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/shopping-bag.svg',
+    stroke=$color
+  );
+}
+@define-mixin shopping-cart $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/shopping-cart.svg',
+    stroke=$color
+  );
+}
+@define-mixin signal-slash $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/signal-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin signal $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/signal.svg',
+    stroke=$color
+  );
+}
+@define-mixin sparkles $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/sparkles.svg',
+    stroke=$color
+  );
+}
+@define-mixin speaker-wave $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/speaker-wave.svg',
+    stroke=$color
+  );
+}
+@define-mixin speaker-x-mark $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/speaker-x-mark.svg',
+    stroke=$color
+  );
+}
+@define-mixin square-2-stack $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/square-2-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin square-3-stack-3d $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/square-3-stack-3d.svg',
+    stroke=$color
+  );
+}
+@define-mixin squares-2x2 $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/squares-2x2.svg',
+    stroke=$color
+  );
+}
+@define-mixin squares-plus $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/squares-plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin star $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/star.svg',
+    stroke=$color
+  );
+}
+@define-mixin stop-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/stop-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin stop $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/stop.svg',
+    stroke=$color
+  );
+}
+@define-mixin sun $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/sun.svg',
+    stroke=$color
+  );
+}
+@define-mixin swatch $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/swatch.svg',
+    stroke=$color
+  );
+}
+@define-mixin table-cells $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/table-cells.svg',
+    stroke=$color
+  );
+}
+@define-mixin tag $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/tag.svg',
+    stroke=$color
+  );
+}
+@define-mixin ticket $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/ticket.svg',
+    stroke=$color
+  );
+}
+@define-mixin trash $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/trash.svg',
+    stroke=$color
+  );
+}
+@define-mixin trophy $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/trophy.svg',
+    stroke=$color
+  );
+}
+@define-mixin truck $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/truck.svg',
+    stroke=$color
+  );
+}
+@define-mixin tv $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/tv.svg',
+    stroke=$color
+  );
+}
+@define-mixin user-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/user-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin user-group $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/user-group.svg',
+    stroke=$color
+  );
+}
+@define-mixin user-minus $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/user-minus.svg',
+    stroke=$color
+  );
+}
+@define-mixin user-plus $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/user-plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin user $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/user.svg',
+    stroke=$color
+  );
+}
+@define-mixin users $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/users.svg',
+    stroke=$color
+  );
+}
+@define-mixin variable $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/variable.svg',
+    stroke=$color
+  );
+}
+@define-mixin video-camera-slash $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/video-camera-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin video-camera $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/video-camera.svg',
+    stroke=$color
+  );
+}
+@define-mixin view-columns $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/view-columns.svg',
+    stroke=$color
+  );
+}
+@define-mixin viewfinder-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/viewfinder-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin wallet $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/wallet.svg',
+    stroke=$color
+  );
+}
+@define-mixin wifi $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/wifi.svg',
+    stroke=$color
+  );
+}
+@define-mixin window $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/window.svg',
+    stroke=$color
+  );
+}
+@define-mixin wrench-screwdriver $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/wrench-screwdriver.svg',
+    stroke=$color
+  );
+}
+@define-mixin wrench $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/wrench.svg',
+    stroke=$color
+  );
+}
+@define-mixin x-circle $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/x-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin x-mark $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/outline/x-mark.svg',
+    stroke=$color
+  );
+}
+
+@define-mixin academic-cap--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/academic-cap.svg',
+    stroke=$color
+  );
+}
+@define-mixin adjustments-horizontal--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/adjustments-horizontal.svg',
+    stroke=$color
+  );
+}
+@define-mixin adjustments-vertical--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/adjustments-vertical.svg',
+    stroke=$color
+  );
+}
+@define-mixin archive-box-arrow-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/archive-box-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin archive-box-x-mark--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/archive-box-x-mark.svg',
+    stroke=$color
+  );
+}
+@define-mixin archive-box--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/archive-box.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-down-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-down-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-on-square-stack--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-down-on-square-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-on-square--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-down-on-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-right--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-down-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down-tray--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-down-tray.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-left-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-left-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-left-on-rectangle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-left-on-rectangle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-long-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-long-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-long-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-long-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-long-right--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-long-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-long-up--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-long-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-path-rounded-square--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-path-rounded-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-path--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-path.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-right-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-right-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-right-on-rectangle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-right-on-rectangle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-right--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-small-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-small-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-small-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-small-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-small-right--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-small-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-small-up--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-small-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-top-right-on-square--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-top-right-on-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-trending-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-trending-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-trending-up--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-trending-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-up-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-up-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-on-square-stack--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-up-on-square-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-on-square--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-up-on-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-right--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-up-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up-tray--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-up-tray.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-up--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-uturn-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-uturn-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-uturn-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-uturn-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-uturn-right--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-uturn-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrow-uturn-up--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrow-uturn-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrows-pointing-in--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrows-pointing-in.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrows-pointing-out--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrows-pointing-out.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrows-right-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrows-right-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin arrows-up-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/arrows-up-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin at-symbol--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/at-symbol.svg',
+    stroke=$color
+  );
+}
+@define-mixin backspace--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/backspace.svg',
+    stroke=$color
+  );
+}
+@define-mixin backward--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/backward.svg',
+    stroke=$color
+  );
+}
+@define-mixin banknotes--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/banknotes.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-2--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bars-2.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-3-bottom-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bars-3-bottom-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-3-bottom-right--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bars-3-bottom-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-3-center-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bars-3-center-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-3--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bars-3.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-4--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bars-4.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-arrow-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bars-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin bars-arrow-up--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bars-arrow-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin battery-0--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/battery-0.svg',
+    stroke=$color
+  );
+}
+@define-mixin battery-50--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/battery-50.svg',
+    stroke=$color
+  );
+}
+@define-mixin battery-100--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/battery-100.svg',
+    stroke=$color
+  );
+}
+@define-mixin beaker--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/beaker.svg',
+    stroke=$color
+  );
+}
+@define-mixin bell-alert--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bell-alert.svg',
+    stroke=$color
+  );
+}
+@define-mixin bell-slash--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bell-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin bell-snooze--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bell-snooze.svg',
+    stroke=$color
+  );
+}
+@define-mixin bell--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bell.svg',
+    stroke=$color
+  );
+}
+@define-mixin bolt-slash--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bolt-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin bolt--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bolt.svg',
+    stroke=$color
+  );
+}
+@define-mixin book-open--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/book-open.svg',
+    stroke=$color
+  );
+}
+@define-mixin bookmark-slash--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bookmark-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin bookmark-square--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bookmark-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin bookmark--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bookmark.svg',
+    stroke=$color
+  );
+}
+@define-mixin briefcase--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/briefcase.svg',
+    stroke=$color
+  );
+}
+@define-mixin bug-ant--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/bug-ant.svg',
+    stroke=$color
+  );
+}
+@define-mixin building-library--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/building-library.svg',
+    stroke=$color
+  );
+}
+@define-mixin building-office-2--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/building-office-2.svg',
+    stroke=$color
+  );
+}
+@define-mixin building-office--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/building-office.svg',
+    stroke=$color
+  );
+}
+@define-mixin building-storefront--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/building-storefront.svg',
+    stroke=$color
+  );
+}
+@define-mixin cake--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cake.svg',
+    stroke=$color
+  );
+}
+@define-mixin calculator--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/calculator.svg',
+    stroke=$color
+  );
+}
+@define-mixin calendar-days--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/calendar-days.svg',
+    stroke=$color
+  );
+}
+@define-mixin calendar--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/calendar.svg',
+    stroke=$color
+  );
+}
+@define-mixin camera--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/camera.svg',
+    stroke=$color
+  );
+}
+@define-mixin chart-bar-square--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chart-bar-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin chart-bar--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chart-bar.svg',
+    stroke=$color
+  );
+}
+@define-mixin chart-pie--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chart-pie.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-bottom-center-text--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chat-bubble-bottom-center-text.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-bottom-center--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chat-bubble-bottom-center.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-left-ellipsis--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chat-bubble-left-ellipsis.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-left-right--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chat-bubble-left-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chat-bubble-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-oval-left-ellipsis--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chat-bubble-oval-left-ellipsis.svg',
+    stroke=$color
+  );
+}
+@define-mixin chat-bubble-oval-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chat-bubble-oval-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin check-badge--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/check-badge.svg',
+    stroke=$color
+  );
+}
+@define-mixin check-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/check-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin check--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/check.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-double-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chevron-double-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-double-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chevron-double-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-double-right--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chevron-double-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-double-up--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chevron-double-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chevron-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chevron-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-right--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chevron-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-up-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chevron-up-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin chevron-up--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/chevron-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin circle-stack--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/circle-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin clipboard-document-check--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/clipboard-document-check.svg',
+    stroke=$color
+  );
+}
+@define-mixin clipboard-document-list--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/clipboard-document-list.svg',
+    stroke=$color
+  );
+}
+@define-mixin clipboard-document--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/clipboard-document.svg',
+    stroke=$color
+  );
+}
+@define-mixin clipboard--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/clipboard.svg',
+    stroke=$color
+  );
+}
+@define-mixin clock--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/clock.svg',
+    stroke=$color
+  );
+}
+@define-mixin cloud-arrow-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cloud-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin cloud-arrow-up--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cloud-arrow-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin cloud--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cloud.svg',
+    stroke=$color
+  );
+}
+@define-mixin code-bracket-square--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/code-bracket-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin code-bracket--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/code-bracket.svg',
+    stroke=$color
+  );
+}
+@define-mixin cog-6-tooth--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cog-6-tooth.svg',
+    stroke=$color
+  );
+}
+@define-mixin cog-8-tooth--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cog-8-tooth.svg',
+    stroke=$color
+  );
+}
+@define-mixin cog--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cog.svg',
+    stroke=$color
+  );
+}
+@define-mixin command-line--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/command-line.svg',
+    stroke=$color
+  );
+}
+@define-mixin computer-desktop--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/computer-desktop.svg',
+    stroke=$color
+  );
+}
+@define-mixin cpu-chip--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cpu-chip.svg',
+    stroke=$color
+  );
+}
+@define-mixin credit-card--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/credit-card.svg',
+    stroke=$color
+  );
+}
+@define-mixin cube-transparent--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cube-transparent.svg',
+    stroke=$color
+  );
+}
+@define-mixin cube--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cube.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-bangladeshi--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/currency-bangladeshi.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-dollar--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/currency-dollar.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-euro--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/currency-euro.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-pound--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/currency-pound.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-rupee--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/currency-rupee.svg',
+    stroke=$color
+  );
+}
+@define-mixin currency-yen--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/currency-yen.svg',
+    stroke=$color
+  );
+}
+@define-mixin cursor-arrow-rays--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cursor-arrow-rays.svg',
+    stroke=$color
+  );
+}
+@define-mixin cursor-arrow-ripple--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/cursor-arrow-ripple.svg',
+    stroke=$color
+  );
+}
+@define-mixin device-phone-mobile--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/device-phone-mobile.svg',
+    stroke=$color
+  );
+}
+@define-mixin device-tablet--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/device-tablet.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-arrow-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/document-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-arrow-up--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/document-arrow-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-chart-bar--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/document-chart-bar.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-check--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/document-check.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-duplicate--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/document-duplicate.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-magnifying-glass--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/document-magnifying-glass.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-minus--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/document-minus.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-plus--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/document-plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin document-text--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/document-text.svg',
+    stroke=$color
+  );
+}
+@define-mixin document--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/document.svg',
+    stroke=$color
+  );
+}
+@define-mixin ellipsis-horizontal-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/ellipsis-horizontal-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin ellipsis-horizontal--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/ellipsis-horizontal.svg',
+    stroke=$color
+  );
+}
+@define-mixin ellipsis-vertical--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/ellipsis-vertical.svg',
+    stroke=$color
+  );
+}
+@define-mixin envelope-open--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/envelope-open.svg',
+    stroke=$color
+  );
+}
+@define-mixin envelope--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/envelope.svg',
+    stroke=$color
+  );
+}
+@define-mixin exclamation-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/exclamation-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin exclamation-triangle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/exclamation-triangle.svg',
+    stroke=$color
+  );
+}
+@define-mixin eye-dropper--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/eye-dropper.svg',
+    stroke=$color
+  );
+}
+@define-mixin eye-slash--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/eye-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin eye--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/eye.svg',
+    stroke=$color
+  );
+}
+@define-mixin face-frown--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/face-frown.svg',
+    stroke=$color
+  );
+}
+@define-mixin face-smile--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/face-smile.svg',
+    stroke=$color
+  );
+}
+@define-mixin film--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/film.svg',
+    stroke=$color
+  );
+}
+@define-mixin finger-print--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/finger-print.svg',
+    stroke=$color
+  );
+}
+@define-mixin fire--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/fire.svg',
+    stroke=$color
+  );
+}
+@define-mixin flag--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/flag.svg',
+    stroke=$color
+  );
+}
+@define-mixin folder-arrow-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/folder-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin folder-minus--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/folder-minus.svg',
+    stroke=$color
+  );
+}
+@define-mixin folder-open--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/folder-open.svg',
+    stroke=$color
+  );
+}
+@define-mixin folder-plus--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/folder-plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin folder--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/folder.svg',
+    stroke=$color
+  );
+}
+@define-mixin forward--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/forward.svg',
+    stroke=$color
+  );
+}
+@define-mixin funnel--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/funnel.svg',
+    stroke=$color
+  );
+}
+@define-mixin gif--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/gif.svg',
+    stroke=$color
+  );
+}
+@define-mixin gift-top--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/gift-top.svg',
+    stroke=$color
+  );
+}
+@define-mixin gift--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/gift.svg',
+    stroke=$color
+  );
+}
+@define-mixin globe-alt--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/globe-alt.svg',
+    stroke=$color
+  );
+}
+@define-mixin globe-americas--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/globe-americas.svg',
+    stroke=$color
+  );
+}
+@define-mixin globe-asia-australia--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/globe-asia-australia.svg',
+    stroke=$color
+  );
+}
+@define-mixin globe-europe-africa--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/globe-europe-africa.svg',
+    stroke=$color
+  );
+}
+@define-mixin hand-raised--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/hand-raised.svg',
+    stroke=$color
+  );
+}
+@define-mixin hand-thumb-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/hand-thumb-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin hand-thumb-up--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/hand-thumb-up.svg',
+    stroke=$color
+  );
+}
+@define-mixin hashtag--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/hashtag.svg',
+    stroke=$color
+  );
+}
+@define-mixin heart--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/heart.svg',
+    stroke=$color
+  );
+}
+@define-mixin home-modern--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/home-modern.svg',
+    stroke=$color
+  );
+}
+@define-mixin home--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/home.svg',
+    stroke=$color
+  );
+}
+@define-mixin identification--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/identification.svg',
+    stroke=$color
+  );
+}
+@define-mixin inbox-arrow-down--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/inbox-arrow-down.svg',
+    stroke=$color
+  );
+}
+@define-mixin inbox-stack--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/inbox-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin inbox--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/inbox.svg',
+    stroke=$color
+  );
+}
+@define-mixin information-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/information-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin key--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/key.svg',
+    stroke=$color
+  );
+}
+@define-mixin language--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/language.svg',
+    stroke=$color
+  );
+}
+@define-mixin lifebuoy--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/lifebuoy.svg',
+    stroke=$color
+  );
+}
+@define-mixin light-bulb--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/light-bulb.svg',
+    stroke=$color
+  );
+}
+@define-mixin link--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/link.svg',
+    stroke=$color
+  );
+}
+@define-mixin list-bullet--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/list-bullet.svg',
+    stroke=$color
+  );
+}
+@define-mixin lock-closed--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/lock-closed.svg',
+    stroke=$color
+  );
+}
+@define-mixin lock-open--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/lock-open.svg',
+    stroke=$color
+  );
+}
+@define-mixin magnifying-glass-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/magnifying-glass-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin magnifying-glass-minus--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/magnifying-glass-minus.svg',
+    stroke=$color
+  );
+}
+@define-mixin magnifying-glass-plus--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/magnifying-glass-plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin magnifying-glass--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/magnifying-glass.svg',
+    stroke=$color
+  );
+}
+@define-mixin map-pin--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/map-pin.svg',
+    stroke=$color
+  );
+}
+@define-mixin map--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/map.svg',
+    stroke=$color
+  );
+}
+@define-mixin megaphone--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/megaphone.svg',
+    stroke=$color
+  );
+}
+@define-mixin microphone--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/microphone.svg',
+    stroke=$color
+  );
+}
+@define-mixin minus-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/minus-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin minus-small--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/minus-small.svg',
+    stroke=$color
+  );
+}
+@define-mixin minus--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/minus.svg',
+    stroke=$color
+  );
+}
+@define-mixin moon--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/moon.svg',
+    stroke=$color
+  );
+}
+@define-mixin musical-note--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/musical-note.svg',
+    stroke=$color
+  );
+}
+@define-mixin newspaper--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/newspaper.svg',
+    stroke=$color
+  );
+}
+@define-mixin no-symbol--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/no-symbol.svg',
+    stroke=$color
+  );
+}
+@define-mixin paint-brush--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/paint-brush.svg',
+    stroke=$color
+  );
+}
+@define-mixin paper-airplane--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/paper-airplane.svg',
+    stroke=$color
+  );
+}
+@define-mixin paper-clip--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/paper-clip.svg',
+    stroke=$color
+  );
+}
+@define-mixin pause-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/pause-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin pause--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/pause.svg',
+    stroke=$color
+  );
+}
+@define-mixin pencil-square--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/pencil-square.svg',
+    stroke=$color
+  );
+}
+@define-mixin pencil--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/pencil.svg',
+    stroke=$color
+  );
+}
+@define-mixin phone-arrow-down-left--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/phone-arrow-down-left.svg',
+    stroke=$color
+  );
+}
+@define-mixin phone-arrow-up-right--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/phone-arrow-up-right.svg',
+    stroke=$color
+  );
+}
+@define-mixin phone-x-mark--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/phone-x-mark.svg',
+    stroke=$color
+  );
+}
+@define-mixin phone--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/phone.svg',
+    stroke=$color
+  );
+}
+@define-mixin photo--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/photo.svg',
+    stroke=$color
+  );
+}
+@define-mixin play-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/play-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin play-pause--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/play-pause.svg',
+    stroke=$color
+  );
+}
+@define-mixin play--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/play.svg',
+    stroke=$color
+  );
+}
+@define-mixin plus-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/plus-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin plus-small--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/plus-small.svg',
+    stroke=$color
+  );
+}
+@define-mixin plus--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin power--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/power.svg',
+    stroke=$color
+  );
+}
+@define-mixin presentation-chart-bar--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/presentation-chart-bar.svg',
+    stroke=$color
+  );
+}
+@define-mixin presentation-chart-line--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/presentation-chart-line.svg',
+    stroke=$color
+  );
+}
+@define-mixin printer--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/printer.svg',
+    stroke=$color
+  );
+}
+@define-mixin puzzle-piece--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/puzzle-piece.svg',
+    stroke=$color
+  );
+}
+@define-mixin qr-code--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/qr-code.svg',
+    stroke=$color
+  );
+}
+@define-mixin question-mark-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/question-mark-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin queue-list--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/queue-list.svg',
+    stroke=$color
+  );
+}
+@define-mixin radio--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/radio.svg',
+    stroke=$color
+  );
+}
+@define-mixin receipt-percent--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/receipt-percent.svg',
+    stroke=$color
+  );
+}
+@define-mixin receipt-refund--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/receipt-refund.svg',
+    stroke=$color
+  );
+}
+@define-mixin rectangle-group--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/rectangle-group.svg',
+    stroke=$color
+  );
+}
+@define-mixin rectangle-stack--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/rectangle-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin rocket-launch--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/rocket-launch.svg',
+    stroke=$color
+  );
+}
+@define-mixin rss--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/rss.svg',
+    stroke=$color
+  );
+}
+@define-mixin scale--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/scale.svg',
+    stroke=$color
+  );
+}
+@define-mixin scissors--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/scissors.svg',
+    stroke=$color
+  );
+}
+@define-mixin server-stack--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/server-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin server--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/server.svg',
+    stroke=$color
+  );
+}
+@define-mixin share--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/share.svg',
+    stroke=$color
+  );
+}
+@define-mixin shield-check--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/shield-check.svg',
+    stroke=$color
+  );
+}
+@define-mixin shield-exclamation--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/shield-exclamation.svg',
+    stroke=$color
+  );
+}
+@define-mixin shopping-bag--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/shopping-bag.svg',
+    stroke=$color
+  );
+}
+@define-mixin shopping-cart--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/shopping-cart.svg',
+    stroke=$color
+  );
+}
+@define-mixin signal-slash--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/signal-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin signal--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/signal.svg',
+    stroke=$color
+  );
+}
+@define-mixin sparkles--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/sparkles.svg',
+    stroke=$color
+  );
+}
+@define-mixin speaker-wave--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/speaker-wave.svg',
+    stroke=$color
+  );
+}
+@define-mixin speaker-x-mark--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/speaker-x-mark.svg',
+    stroke=$color
+  );
+}
+@define-mixin square-2-stack--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/square-2-stack.svg',
+    stroke=$color
+  );
+}
+@define-mixin square-3-stack-3d--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/square-3-stack-3d.svg',
+    stroke=$color
+  );
+}
+@define-mixin squares-2x2--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/squares-2x2.svg',
+    stroke=$color
+  );
+}
+@define-mixin squares-plus--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/squares-plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin star--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/star.svg',
+    stroke=$color
+  );
+}
+@define-mixin stop-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/stop-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin stop--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/stop.svg',
+    stroke=$color
+  );
+}
+@define-mixin sun--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/sun.svg',
+    stroke=$color
+  );
+}
+@define-mixin swatch--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/swatch.svg',
+    stroke=$color
+  );
+}
+@define-mixin table-cells--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/table-cells.svg',
+    stroke=$color
+  );
+}
+@define-mixin tag--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/tag.svg',
+    stroke=$color
+  );
+}
+@define-mixin ticket--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/ticket.svg',
+    stroke=$color
+  );
+}
+@define-mixin trash--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/trash.svg',
+    stroke=$color
+  );
+}
+@define-mixin trophy--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/trophy.svg',
+    stroke=$color
+  );
+}
+@define-mixin truck--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/truck.svg',
+    stroke=$color
+  );
+}
+@define-mixin tv--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/tv.svg',
+    stroke=$color
+  );
+}
+@define-mixin user-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/user-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin user-group--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/user-group.svg',
+    stroke=$color
+  );
+}
+@define-mixin user-minus--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/user-minus.svg',
+    stroke=$color
+  );
+}
+@define-mixin user-plus--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/user-plus.svg',
+    stroke=$color
+  );
+}
+@define-mixin user--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/user.svg',
+    stroke=$color
+  );
+}
+@define-mixin users--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/users.svg',
+    stroke=$color
+  );
+}
+@define-mixin variable--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/variable.svg',
+    stroke=$color
+  );
+}
+@define-mixin video-camera-slash--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/video-camera-slash.svg',
+    stroke=$color
+  );
+}
+@define-mixin video-camera--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/video-camera.svg',
+    stroke=$color
+  );
+}
+@define-mixin view-columns--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/view-columns.svg',
+    stroke=$color
+  );
+}
+@define-mixin viewfinder-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/viewfinder-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin wallet--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/wallet.svg',
+    stroke=$color
+  );
+}
+@define-mixin wifi--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/wifi.svg',
+    stroke=$color
+  );
+}
+@define-mixin window--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/window.svg',
+    stroke=$color
+  );
+}
+@define-mixin wrench-screwdriver--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/wrench-screwdriver.svg',
+    stroke=$color
+  );
+}
+@define-mixin wrench--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/wrench.svg',
+    stroke=$color
+  );
+}
+@define-mixin x-circle--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/x-circle.svg',
+    stroke=$color
+  );
+}
+@define-mixin x-mark--solid $color {
+  background-image: svg-load(
+    '../../../../node_modules/heroicons/24/solid/x-mark.svg',
+    stroke=$color
+  );
+}
