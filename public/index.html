@@ -1,3 +1,7 @@
+<?php
+  $insta_media_limit  = '12';
+  include_once($_SERVER['DOCUMENT_ROOT']."/../config/snip/instagramapi.php");
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -6,16 +10,11 @@
   <title>Embedding test using InstagramAPI</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="/assets/styles/lib/embed-instagram.css">
+  <?php echo "<script>const instagramPostData = ".$json."</script>" ?>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js" defer></script>
+  <script src="/assets/scripts/instagram.js" defer></script>
 </head>
 <body>
-<?php
-  include_once($_SERVER['DOCUMENT_ROOT']."/../config/snip/instagramapi.php");
-  echo "<script>const obj = ".$json.";console.log(obj)</script>";
-?>
-  <div id="instaWrapper">
-    <div id="insta" class="max-w-4xl mx-auto"></div>
-  </div>
-  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-  <script src="/assets/scripts/instagram.js"></script>
+  <div id="instagram" class="max-w-4xl mx-auto"></div>
 </body>
 </html>
