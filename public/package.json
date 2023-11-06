@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "run-p postcss server",
     "postcss": "postcss assets/_postcss/main.css -o assets/styles/main.css --watch",
-    "server": "browser-sync start --server './' --watch './**/*'"
+    "server": "browser-sync start --proxy http://use-instagramapi.obkt --files './' --watch './**/*'"
   },
   "author": "",
   "license": "ISC",
