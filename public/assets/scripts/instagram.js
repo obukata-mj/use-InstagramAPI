@@ -18,7 +18,7 @@ const embedInstagramList = () => {
         console.log(eachItem.timestamp)
         document.querySelector('#embed-list .embed-list').insertAdjacentHTML('beforeend', `
           <div class="">
-            <a class="py-2 block" href="${eachItem.permalink}" target="_blank" rel="noopener">
+            <a class="py-2 block hover:text-blue-500" href="${eachItem.permalink}" target="_blank" rel="noopener">
               <span class="block text-gray-700 text-sm">${dayjs(eachItem.timestamp).format('YYYY年M月D日')}</span>
               <span class="block line-clamp-1">${eachItem.caption ? eachItem.caption : 'タイトルがありません'}</span>
             </a>
