@@ -746,14 +746,14 @@ select {
 .max-w-4xl {
   max-width: 56rem;
 }
+.max-w-\[1216px\] {
+  max-width: 1216px;
+}
 .max-w-md {
   max-width: 28rem;
 }
 .max-w-xl {
   max-width: 36rem;
-}
-.max-w-\[1216px\] {
-  max-width: 1216px;
 }
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -849,13 +849,13 @@ select {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .font-bold {
   font-family: TsukuGoPro-B-DINNextLTPro-Medium, sans-serif;
