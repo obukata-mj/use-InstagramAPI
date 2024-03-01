@@ -13,7 +13,7 @@
   /**
    * .env環境変数からビジネスID、アクセストークンを取得
    */
-  $envFilePath = __DIR__ . '/.env';
+  $envFilePath = '../.env';
   if (file_exists($envFilePath)) {
     $envFile = file_get_contents($envFilePath);
     $lines = explode("\n", $envFile);
