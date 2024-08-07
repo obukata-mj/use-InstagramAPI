@@ -81,16 +81,16 @@ class ConnectInstagram {
         if(eachItem.media_url !== null){
           if(eachItem.media_type === 'VIDEO') {
             eachItem.media = eachItem.thumbnail_url
-            mediaicon = '<iconify-icon icon="fluent:video-clip-16-filled"></iconify-icon>'
+            mediaicon = '<span class="embed-instagram__icon" data-icon="video"></span>'
           }else if(eachItem.media_type === 'CAROUSEL_ALBUM') {
             eachItem.media = eachItem.media_url
-            mediaicon = '<iconify-icon icon="tabler:box-multiple"></iconify-icon>'
+            mediaicon = '<span class="embed-instagram__icon" data-icon="multiple"></span>'
           }else {
             eachItem.media = eachItem.media_url
             mediaicon = ''
           }
           const caption = eachItem.caption ? `<span class="embed-instagram__caption">${eachItem.caption}</span>` : ''
-          const like = `<span class="embed-instagram__like"><iconify-icon icon="icon-park-solid:like"></iconify-icon>${eachItem.like_count}</span>`
+          const like = `<span class="embed-instagram__like"><span class="embed-instagram__icon" data-icon="like"></span>${eachItem.like_count}</span>`
           this.target.querySelector('.embed-instagram').insertAdjacentHTML('beforeend', `
             <div class="embed-instagram__item">
               <a class="embed-instagram__link" href="${eachItem.permalink}" target="_blank" rel="noopener">
